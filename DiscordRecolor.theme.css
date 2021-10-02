@@ -1,0 +1,46 @@
+/**
+ * @name DiscordRecolor
+ * @description Allows you to customize Discord's native Color Scheme
+ * @author DevilBro
+ * @version 1.0.0
+ * @authorId 278543574059057154
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://mwittrien.github.io/
+ * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor/
+ * @updateUrl https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.theme.css
+ */
+
+/* To change the colors, change the variables inside the root {}, do NOT change the @import url() */
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+
+/* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker	*/
+
+:root {
+	--font:						Noto Sans;					/*	General Font				*/
+	--settingsicons:			1;						    /*	Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no			*/
+	
+	--accentcolor: 				255, 86, 142;				/*	Cherry Pink			 - 	default:	255,86,142		 - 	hex:	#ff568e 	*/
+	--accentcolor2: 			147, 111, 247;			    /*	Cherry Purple		 - 	default:	142,111,247		 - 	hex:	#8e6ff7		*/
+	--linkcolor: 				115, 169, 255;				/*	Cherry Blue			 - 	default:	115,169,255		 - 	hex:	#73a9ff		*/
+	--mentioncolor: 			255, 86, 142;				/*	Highlight Color		 - 	default:	255,86,142		 - 	hex:	#ff568e 	*/
+	--successcolor: 			100, 222, 131;				/*	Success Color		 - 	default:	100,222,131		 - 	hex:	#64de83		*/
+	--warningcolor: 			239, 255, 115;				/*	Warning Color		 - 	default:	239,255,115		 - 	hex:	#efff73		*/
+	--dangercolor:  			255, 86, 142;				/*	Danger Color		 - 	default:	255,86,142		 - 	hex:	#ff568e 	*/
+	
+	--textbrightest: 			222, 222, 239;		    	/*	Text Color 1		 - 	default:	255,255,239		 - 	hex:	#ffffef		*/
+	--textbrighter: 			189, 195, 199;		    	/*	Text Color 2		 - 	default:	189,195,199		 - 	hex:	#bdc3c7		*/
+	--textbright: 				121, 121, 143;		    	/*	Text Color 3		 - 	default:	121,121,143		 - 	hex:	#797991		*/
+	--textdark: 				121, 121, 143;		    	/*	Text Color 4		 - 	default:	121,121,143		 - 	hex:	#797991		*/
+	--textdarker: 				121, 121, 143;		    	/*	Text Color 5		 - 	default:	121,121,143		 - 	hex:	#797991		*/
+	--textdarkest: 				80, 80, 95;			     	/*	Text Color 6		 - 	default:	80,80,95		 - 	hex:	#50505f		*/
+	
+	--backgroundaccent: 		54, 56, 62;					/*	Background Accent	 - 	default:	54,56,62		 - 	hex:	#36383E		*/
+	--backgroundprimary: 		35, 35, 47;					/*	Background 1		 - 	default:	35,35,47		 - 	hex:	#23232f		*/
+	--backgroundsecondary: 		20,20,20;					/*	Background 2		 - 	default:	20,20,20		 - 	hex:	#141414		*/
+	--backgroundsecondaryalt: 	15,15,15;					/*	Background 3		 - 	default:	15,15,15		 - 	hex:	#0f0f0f		*/
+	--backgroundtertiary: 		10,10,10;					/*	Background 4		 - 	default:	10,10,10		 - 	hex:	#0a0a0a		*/
+	--backgroundfloating: 		0,0,0;						/*	Background Elevated	 - 	default:	0,0,0		 	 - 	hex:	#000000		*/
+}
